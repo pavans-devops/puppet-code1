@@ -13,7 +13,18 @@ mod 'puppetlabs-aws', '2.1.0'
 mod 'apache',
   :git    => 'https://github.com/pavans-devops/apache',
   :branch => 'master'
-
+mod 'tree',
+  :git    => 'https://github.com/pavans-devops/tree',
+  :branch => 'master'
+mod 'ntp',
+  :git    => 'https://github.com/pavans-devops/ntp',
+  :branch => 'master'
+mod 'profile',
+  :git    => 'https://github.com/pavans-devops/profile',
+  :branch => 'master'
+mod 'role',
+  :git    => 'https://github.com/pavans-devops/role',
+  :branch => 'master'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
